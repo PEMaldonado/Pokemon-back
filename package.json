@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "start": "node ./index.js",
-    "test": "jest --detectOpenHandles"
+    "test": "jest --detectOpenHandles",
+    "vercel-build":"echo hello"
   },
   "author": "Henry",
   "license": "ISC",
