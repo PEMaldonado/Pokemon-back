@@ -24,7 +24,7 @@ const pokemonFormater = (pokemon) => {
 const getAllPokemons = async (offset) => {
   const pokemons = (
     await axios.get(
-      `https://pokeapi.co/api/v2/pokemon?offset=${offset}&limit=1200`
+      `https://pokeapi.co/api/v2/pokemon?offset=${offset}&limit=50`
     )
   ).data.results;
 
